@@ -26,42 +26,6 @@ body {
     padding: 18px;
 }
 
-#mainImage{
-    background-image: url("../images/browser.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#calltoaction{
-    height: 700px;
-    width: 960px;
-}
-
-#calltoactionText{
-    position: relative;
-}
-
-#calltoactionText h1, h3{
-    position: relative;
-    top: 300px;
-}
-
-#table{
-    margin-bottom: 120px;
-}
-
-.blackBackground{
-    background-color: black;
-}
-
-.blueText{
-    color: blue;
-}
-
-.whiteText{
-    color: white;
-}
-
 .goldenSmall{
     width: 329px;
 }
@@ -142,4 +106,31 @@ a:link, a:visited {
 
 .verticalCenter {
     padding-top: 50px;
+}
+
+.verticalMenuScroll {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.verticalMenu {
+width: 200px;
+}
+
+.verticalMenu a {
+background-color: #eee;
+color: black;
+display: block;
+padding: 12px;
+text-decoration: none;
+}
+
+.verticalMenu a:hover {
+background-color: #ccc;
+}
+
+.verticalMenu a.active {
+background-color: #4CAF50;
+color: white;
 }
