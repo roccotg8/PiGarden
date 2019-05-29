@@ -34,6 +34,14 @@ body {
     width: 600px;
 }
 
+.contentSmall{
+    width: 329px;
+}
+
+.contentBig{
+    width: 631px;
+}
+
 .wrapperPaddingRight{
     padding-right: 31px;
 }
@@ -56,6 +64,10 @@ body {
 
 .floatLeft{
     float: left;
+}
+
+.floatRight{
+    float: right;
 }
 
 .clearFix{
