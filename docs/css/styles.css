@@ -46,6 +46,10 @@ body {
     text-align: right;
 }
 
+.textLeft{
+    text-align: left;
+}
+
 .texCenter{
     text-align: center;
 }
